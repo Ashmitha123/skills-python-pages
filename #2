@@ -1,0 +1,41 @@
+Functions:
+
+When a certain steps/ instructions  need to be executed only when it is called for
+
+eg:
+def <function name> ()
+  write the block of code
+
+Calling a function:
+function name(): 
+
+with parameters/arguments:
+def <functionname> (param1)
+  write the block of code
+
+Calling a function:
+functionname(value)
+
+eg:
+calculate the hours from days:
+
+no_of_days=30;
+
+def hours():
+  print(f"{no_of_days} days has {30*24} hours")
+
+hours()
+
+Passing value:
+
+def hours(no_of_days):
+  print(f"{no_of_days} days has {30*24} hours")
+
+hours(20)
+
+multiple values:
+
+def hours(no_of_days,unit):
+  print(f"{no_of_days} days has {no_of_days*24} {unit}")
+
+hours(40,"hours")
