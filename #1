@@ -1,0 +1,39 @@
+Well Hello World!!
+
+I am very new to this ie, both blogging and learning Python.I am learning from below resource. Lets get to it.
+https://youtu.be/t8pPdKYpowI?si=MI9paMus0fYXZS63
+
+May26: Sunday 2024
+Today I learnt:
+
+1.Install Python through their official website/ brew(I used this:P):
+brew install python3
+ashmitha ~ % python3 --version
+Python 3.9.6
+
+2. Download an IDE --> PyCharm 
+I used Visual studio--> added few Python extensions and works like magic!
+
+Create a Python folder to create your first python code file-- maybe create a main.py or test.py
+
+Now you have 2 ways to write and run a python program
+a. From a terminal -->  python3 test.py
+b. From VS code --> write and run ., Its pretty straightforward
+
+3. The first program using print() function:
+
+to print 
+a)a string:== print("I am a string")
+b)a number:== print(780)
+c) to print  math:== print(34*40*7)
+c) to print both number and string together :== print("I am a string " + str(67) +"and a number")
+d) to print a math calculation:== print(f "I am using {24*7*4} math")
+
+Doubt:
+  print(00100)
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+
+
+
+
+
