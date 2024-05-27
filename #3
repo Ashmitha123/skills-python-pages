@@ -1,0 +1,37 @@
+Scope:
+
+variable scope --> where the variable can be available to be utilized
+
+global scope: global variables . all functions can use it 
+
+internal scope .. only inside a function
+
+
+globalvar="checking"
+def hours(no_of_days,unit):
+  print(f"{no_of_days} days has {no_of_days*24} {unit}")
+
+hours(40,"hours")
+
+def scope_check():
+  print(no_of_days)
+  print(globalvar)
+
+scope_check()
+
+-->40 days has 960 hours
+no_of_days not defined
+
+
+Another internal variable:
+
+globalvar="checking"
+
+def scope_check():
+  int_var="voila"
+  print(globalvar)
+  print(int_var)
+scope_check()
+
+int_var cant be used outside the function
+

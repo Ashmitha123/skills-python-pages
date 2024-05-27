@@ -1,0 +1,49 @@
+input function:
+Lost my data here:(
+
+Adding the code:
+
+sum=eval (input("enter the numbers \n"))
+print(sum)
+
+data=input ("enter a number \n")
+def fnc1():
+ return(f"i m input 1 {data}")
+
+callin_fcn=(fnc1())
+print(callin_fcn)
+
+enter a number 
+9
+i m input 1 9
+
+Python runs sequentially:
+
+
+Traceback (most recent call last):
+  File "/Users/ashmitha/Desktop/Python/main.py", line 16, in <module>
+    callin_fcn=(fnc1())
+                ^^^^
+NameError: name 'fnc1' is not defined
+
+
+sum=eval (input("enter the numbers \n"))
+print(sum)
+
+callin_fcn=(fnc1())
+print(callin_fcn)
+
+def fnc1():
+ return(f"i m input 1 {data}")
+
+data=input ("enter a number \n")
+
+
+value to input is treated a string and not a number
+user_input_number=int(user_input) --> parsing
+
+
+
+
+
+
