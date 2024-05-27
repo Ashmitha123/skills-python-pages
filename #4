@@ -37,3 +37,6 @@ def fnc1():
  return(f"i m input 1 {data}")
 
 data=input ("enter a number \n")
+
+
+value to input is treated a string and not a number
