@@ -40,3 +40,10 @@ data=input ("enter a number \n")
 
 
 value to input is treated a string and not a number
+user_input_number=int(user_input) --> parsing
+
+
+
+
+
+
