@@ -1,0 +1,18 @@
+input function:
+Lost my data here:(
+
+Adding the code:
+
+sum=eval (input("enter the numbers \n"))
+print(sum)
+
+data=input ("enter a number \n")
+def fnc1():
+ return(f"i m input 1 {data}")
+
+callin_fcn=(fnc1())
+print(callin_fcn)
+
+enter a number 
+9
+i m input 1 9
